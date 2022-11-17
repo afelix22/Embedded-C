@@ -24,13 +24,13 @@ int main(){
     //3.In a given operating system, a pointer to a short int is 32 bits wide. How wide is a pointer to a long int in this same system?
     // a pointer to a short int is 32 bits wide and a pointer to long int is still 32 bits wide in the same system.
 
-    printf("\nsizeof long int pointer is %d byte", sizeof(*test));
+    printf("\nsizeof long int pointer is %d bytes", sizeof(*test));
 
     //4. Assume p is a pointer to a float. Further, assume, the value of p is 1000.
     float p = 17.6;
     float *P;
     P = &p;
-    printf("\nsizeof float is %d byte", sizeof(p));
+    printf("\nsizeof float is %d bytes", sizeof(p));
 
 
     // What value is p++?

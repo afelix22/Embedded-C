@@ -1,12 +1,13 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
     int x;
     printf("Enter an Integer From 0 to 9 Only: ");
     scanf("%d", &x);
 
-    switch(x){
-
+    switch(x)
+    {
         case 0:
             printf("Zero");
             break;

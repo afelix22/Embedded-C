@@ -1,46 +1,75 @@
 #include <stdio.h>
 
-int isLeapYear(int year){
-    if (year % 400 == 0 || year % 4 == 0){
+int isLeapYear(int year)
+{
+    if (year % 400 == 0 || year % 4 == 0)
+    {
         return 1;
-    }else if (year % 100 == 0){
+    }
+    else if (year % 100 == 0)
+    {
         return 0;
     }
 }
 
-int numberofDays(int month, int year){
-    if(month==1){
+int numberofDays(int month, int year)
+{
+    if(month==1)
+    {
         return 31;
-    } else if(month==2){
-        if(isLeapYear(year)){
+    }
+    else if(month==2)
+    {
+        if(isLeapYear(year))
+        {
             return 29;
         }
         return 28;
-    } else if(month==3){
+    }
+    else if(month==3)
+    {
         return 31;
-    } else if(month==4){
+    }
+    else if(month==4)
+    {
         return 30;
-    } else if(month==5){
+    }
+    else if(month==5)
+    {
         return 31;
-    } else if(month==6){
+    }
+    else if(month==6)
+    {
         return 30;
-    } else if(month==7){
+    }
+    else if(month==7)
+    {
         return 31;
-    } else if(month==8){
+    }
+    else if(month==8)
+    {
         return 31;
-    } else if(month==9){
+    }
+    else if(month==9)
+    {
         return 30;
-    } else if(month==10){
+    }
+    else if(month==10)
+    {
         return 31;
-    } else if(month==11){
+    }
+    else if(month==11)
+    {
         return 30;
-    } else if(month==12){
+    }
+    else if(month==12)
+    {
         return 31;
     }
 }
 
-int main(){
-
+int main()
+{
     int year, month;
     int isLeapYear(int year);
     int numberofDays(int month, int year);

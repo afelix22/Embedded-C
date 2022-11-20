@@ -3,15 +3,16 @@ The integer data type is replaced with float to calculate decimal inputs*/
 
 #include <stdio.h>
 
-void calc(float len, float wid){
+void calc(float len, float wid)
+{
     float a, p;
     a = len*wid;
     p = 2*(len+wid);
     printf("\nThe area is %.1f and the perimeter is %.1f \n", a, p);
 }
 
-int main(){
-
+int main()
+{
     float len, wid;
 
     printf("Enter the Length: ");

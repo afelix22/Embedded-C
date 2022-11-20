@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
 
     int hrs = 0, mins = 0;
     float secs = 0;
